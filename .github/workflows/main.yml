@@ -7,7 +7,7 @@ on: # укажите сборку для запуска автоматическ
 
 jobs:
   build:
-      name: Build DOcker image
+      name: Build Docker image
       runs-on: ubuntu-latest # укажите ОС для работы приложения
       steps:
           - # Клоникуйте код приложения в ОС
